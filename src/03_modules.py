@@ -12,9 +12,9 @@ import sys
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
 for x in sys.argv:
-    print("Argument", x)
+    print(x)
     # Checking the length here. I am not sure what we are supposed to be doing here really.
-    print(len(sys.argv))
+    # print(len(sys.argv))
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE
